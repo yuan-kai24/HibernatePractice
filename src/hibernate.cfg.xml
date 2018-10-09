@@ -14,6 +14,9 @@
         <property name="hibernate.format_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
 
+        <!-- 隔离级别 -->
+        <property name="hibernate.connection.isolation">4</property>
+
         <mapping resource="com/myxq/domain/Customer.hbm.xml"/>
 
     </session-factory>
