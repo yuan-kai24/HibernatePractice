@@ -13,7 +13,7 @@ public class test2 {
 
     @Test
     public void test(){
-        Session session = HibernateUtil.openSession();
+        Session session = HibernateUtil.getCurrentSession();
         Transaction transaction = session.beginTransaction();
 
         Customer customer = session.get(Customer.class, 1L);
