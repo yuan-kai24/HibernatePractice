@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496637fd-2b1d-4e4b-a3e7-0784a5fa213e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/myxq/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myxq/domain/Customer.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/myxq/domain/Linkman.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myxq/domain/Linkman.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/myxq/domain/Linkman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myxq/domain/Linkman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/myxq/test/test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/myxq/test/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myxq/test/test2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,26 +74,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="dtd" value="1" />
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="111" />
+          <entry key="java" value="270" />
           <entry key="xml" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="111" />
+          <entry key="JAVA" value="270" />
           <entry key="XML" value="230" />
         </counts>
       </usages-collector>
@@ -105,8 +104,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/myxq/test/test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/myxq/test/test3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,15 +126,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="693">
@@ -144,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/Linkman.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="102" lean-forward="true" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
+            <state relative-caret-position="168">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -178,6 +180,7 @@
               <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="method#openSession#0;class#HibernateUtil#0" expanded="true" />
+                <element signature="method#getCurrentSession#0;class#HibernateUtil#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,12 +203,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/myxq/test/test.java" />
         <option value="$PROJECT_DIR$/src/com/myxq/uitile/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/myxq/test/test2.java" />
         <option value="$PROJECT_DIR$/src/com/myxq/domain/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/myxq/domain/Customer.hbm.xml" />
         <option value="$PROJECT_DIR$/src/com/myxq/domain/Linkman.java" />
         <option value="$PROJECT_DIR$/src/com/myxq/domain/Linkman.hbm.xml" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/com/myxq/test/test2.java" />
+        <option value="$PROJECT_DIR$/src/com/myxq/test/test3.java" />
       </list>
     </option>
   </component>
@@ -251,11 +255,6 @@
             <path>
               <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernatePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernatePractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -285,7 +284,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="myxq" type="462c0819:PsiDirectoryNode" />
-              <item name="uitile" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +298,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539265068912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539265548447" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -448,7 +447,7 @@
       <workItem from="1539063871741" duration="1116000" />
       <workItem from="1539100114609" duration="2914000" />
       <workItem from="1539260073080" duration="794000" />
-      <workItem from="1539262588271" duration="1849000" />
+      <workItem from="1539262588271" duration="2328000" />
     </task>
     <servers />
   </component>
@@ -485,7 +484,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29850000" />
+    <option name="totallyTimeSpent" value="30329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -575,16 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myxq/test/test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.1.Final.jar!/org/hibernate/hibernate-mapping-3.0.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -599,6 +588,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/Customer.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/Linkman.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myxq/uitile/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="method#openSession#0;class#HibernateUtil#0" expanded="true" />
+            <element signature="method#getCurrentSession#0;class#HibernateUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/Linkman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -609,30 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/Customer.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myxq/uitile/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="method#openSession#0;class#HibernateUtil#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/Linkman.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="102" lean-forward="true" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -640,10 +637,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/myxq/test/test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        <state relative-caret-position="315">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myxq/test/test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

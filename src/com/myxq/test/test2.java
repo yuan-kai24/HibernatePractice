@@ -13,6 +13,7 @@ public class test2 {
 
     @Test
     public void test(){
+        //线程内的session
         Session session = HibernateUtil.getCurrentSession();
         Transaction transaction = session.beginTransaction();
 
