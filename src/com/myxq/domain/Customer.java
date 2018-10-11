@@ -11,7 +11,7 @@ import java.util.Set;
 @Setter
 @ToString
 public class Customer {
-    private  Long cust_id;
+    private Long cust_id;
     private String cust_name;
     private String cust_source;
     private String cust_industry;
@@ -20,5 +20,5 @@ public class Customer {
     private String cust_mobile;
 
     //一个客户可以有多个联系人
-    private Set<Linkman> linkmans = new HashSet<>();
+    private Set<Linkman> linkmens = new HashSet<>();
 }

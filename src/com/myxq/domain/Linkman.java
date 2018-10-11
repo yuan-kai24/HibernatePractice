@@ -19,7 +19,6 @@ public class Linkman {
     private String link_position;
     private String link_memo;
     private String link_cust_id;
-
     //一个联系人只对应一个客户
     private Customer customer;
 }
