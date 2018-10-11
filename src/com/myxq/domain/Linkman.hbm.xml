@@ -15,5 +15,7 @@
         <property name="link_qq" />
         <property name="link_position" />
         <property name="link_memo" />
+
+        <many-to-one name="customer" class="com.myxq.domain.Customer" column="customer"></many-to-one>
     </class>
 </hibernate-mapping>

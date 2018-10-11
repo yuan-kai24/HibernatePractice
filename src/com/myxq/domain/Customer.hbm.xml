@@ -15,5 +15,16 @@
         <property name="cust_level" column="cust_level"/>
         <property name="cust_phone" column="cust_phone"/>
         <property name="cust_mobile" column="cust_mobile"/>
+
+        <!-- 一对多 -->
+        <set name="linkmans">
+            <key column="link_cust_id">
+
+            </key><!-- 外键 -->
+            <one-to-many class="com.myxq.domain.Linkman">
+
+            </one-to-many>
+
+        </set>
     </class>
 </hibernate-mapping>
